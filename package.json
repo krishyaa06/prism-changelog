@@ -1,0 +1,37 @@
+{
+  "name": "prism-changelog",
+  "version": "1.0.0",
+  "description": "Turns Conventional Commits into a clean, linked CHANGELOG.md, suggests the next semver version and cuts releases (bump, commit, tag) in one command.",
+  "bin": {
+    "changelog": "bin/changelog.js"
+  },
+  "main": "src/index.js",
+  "files": [
+    "bin",
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "cli",
+    "changelog",
+    "conventional-commits",
+    "semver",
+    "release",
+    "git",
+    "versioning",
+    "developer-tools",
+    "prism-protocol"
+  ],
+  "author": "Soumya Bhandare (krishyaa06)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishyaa06/prism-changelog.git"
+  },
+  "homepage": "https://github.com/krishyaa06/prism-changelog#readme",
+  "engines": {
+    "node": ">=18.17"
+  }
+}
